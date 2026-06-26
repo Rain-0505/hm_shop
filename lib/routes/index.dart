@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hm_shop/pages/login/index.dart';
+import 'package:hm_shop/pages/login/login.dart';
 import 'package:hm_shop/pages/main/index.dart';
 
-//返回App根级Widget,用于runApp()
+
+//定义App根级Widget,用于runApp()
 Widget getRootWidget() {
   return MaterialApp(
     //命名路由
